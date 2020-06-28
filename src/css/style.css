@@ -1,5 +1,11 @@
 /*! purgecss start ignore */
 @tailwind base;
 @tailwind components;
+
+html,
+body {
+	@apply font-permanent-marker;
+}
+
 /*! purgecss end ignore */
 @tailwind utilities;
