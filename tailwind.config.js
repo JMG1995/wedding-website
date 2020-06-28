@@ -5,6 +5,9 @@ module.exports = {
 		maxHeight: {
 			'600': '600px',
 		},
+		maxWidth: {
+			'1280': '1280px',
+		},
 		fontFamily: {
 			'permanent-marker': ['Permanent Marker'],
 		},
