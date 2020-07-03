@@ -6,6 +6,7 @@ module.exports = {
 			'600': '600px',
 		},
 		maxWidth: {
+			'800': '800px',
 			'1280': '1280px',
 		},
 		fontFamily: {
