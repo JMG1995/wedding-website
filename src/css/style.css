@@ -11,5 +11,17 @@ p {
 	@apply mb-4 tracking-wider;
 }
 
+form p {
+	@apply mb-1;
+}
+
+form p label {
+	@apply ml-3;
+}
+
+form div {
+	@apply mb-4;
+}
+
 /*! purgecss end ignore */
 @tailwind utilities;

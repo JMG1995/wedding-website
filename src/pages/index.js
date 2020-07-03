@@ -52,7 +52,11 @@ function IndexPage() {
 					data-netlify="true">
 					<div>
 						<label className="block">Full Name</label>
-						<input className="bg-grey-400" type="text" name="name" />
+						<input
+							className="bg-gray-200 px-2 py-1 w-full"
+							type="text"
+							name="name"
+						/>
 					</div>
 					<div>
 						<label className="block">Are you attending?</label>
@@ -129,10 +133,18 @@ function IndexPage() {
 							Please list any dietary requirements you have (leave blank if
 							none)
 						</label>
-						<input className="bg-grey-400" type="text" name="diet-reqs" />
+						<input
+							className="bg-gray-200 px-2 py-1 w-full"
+							type="text"
+							name="diet-reqs"
+						/>
 					</div>
 					<div>
-						<button type="submit">Send</button>
+						<button
+							className="px-6 rounded-full text-white tracking-widest py-1 bg-green-700 block"
+							type="submit">
+							Send
+						</button>
 					</div>
 				</form>
 			</section>
