@@ -11,6 +11,7 @@ module.exports = {
 		},
 		fontFamily: {
 			'permanent-marker': ['Permanent Marker'],
+			montserrat: ['Montserrat'],
 		},
 	},
 	variants: {},

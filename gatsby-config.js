@@ -44,6 +44,10 @@ module.exports = {
 					{
 						family: `Permanent Marker`,
 					},
+					{
+						family: `Montserrat`,
+						variants: [`400`, `700`],
+					},
 				],
 			},
 		},

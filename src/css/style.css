@@ -4,7 +4,20 @@
 
 html,
 body {
-	@apply font-permanent-marker text-lg;
+	@apply font-montserrat;
+}
+
+h1,
+h2 {
+	@apply font-permanent-marker;
+}
+
+h1 {
+	@apply leading-10;
+}
+
+h2 {
+	@apply leading-9;
 }
 
 p {
@@ -21,6 +34,10 @@ form p label {
 
 form div {
 	@apply mb-4;
+}
+
+form div > label {
+	@apply font-bold uppercase text-sm;
 }
 
 /*! purgecss end ignore */

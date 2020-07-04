@@ -30,7 +30,7 @@ export default function Form() {
 						type="radio"
 						id="yes-attending"
 						name="attending"
-						value="yes-attending"
+						value="Yes I'm attending"
 					/>
 					<label htmlFor="yes-attending">Yes, I am attending</label>
 				</p>
@@ -39,7 +39,7 @@ export default function Form() {
 						type="radio"
 						id="no-attending"
 						name="attending"
-						value="no-attending"
+						value="No, I can't make it"
 					/>
 					<label htmlFor="no-attending">{"No, I can't make it"}</label>
 				</p>
@@ -53,7 +53,7 @@ export default function Form() {
 						type="radio"
 						id="yes-staying"
 						name="staying"
-						value="yes-staying"
+						value="Yes I'm staying at the Vines"
 					/>
 					<label htmlFor="yes-staying">{"Yes, I'll be staying"}</label>
 				</p>
@@ -62,7 +62,7 @@ export default function Form() {
 						type="radio"
 						id="no-staying"
 						name="staying"
-						value="no-staying"
+						value="No, I'm not staying at the Vines"
 					/>
 					<label htmlFor="no-staying">No, not staying</label>
 				</p>
@@ -70,11 +70,21 @@ export default function Form() {
 			<div>
 				<label className="block">Will you be using the provided coach?</label>
 				<p>
-					<input type="radio" id="yes-to" name="coach" value="yes-to" />
+					<input
+						type="radio"
+						id="yes-to"
+						name="coach"
+						value="Yes, only to the wedding"
+					/>
 					<label htmlFor="yes-to">Only to the wedding</label>
 				</p>
 				<p>
-					<input type="radio" id="yes-from" name="coach" value="yes-from" />
+					<input
+						type="radio"
+						id="yes-from"
+						name="coach"
+						value="Yes, only from the wedding"
+					/>
 					<label htmlFor="yes-from">Only from the wedding</label>
 				</p>
 				<p>
@@ -82,12 +92,17 @@ export default function Form() {
 						type="radio"
 						id="yes-to-from"
 						name="coach"
-						value="yes-to-from"
+						value="Yes, to and from the wedding"
 					/>
 					<label htmlFor="yes-to-from">Yes, to and from the wedding</label>
 				</p>
 				<p>
-					<input type="radio" id="no-coach" name="coach" value="no-coach" />
+					<input
+						type="radio"
+						id="no-coach"
+						name="coach"
+						value="Not using the coachx"
+					/>
 					<label htmlFor="no-coach">Not using the coach</label>
 				</p>
 			</div>
@@ -103,7 +118,7 @@ export default function Form() {
 			</div>
 			<div>
 				<button
-					className="px-6 rounded-full text-white tracking-widest      py-1 bg-green-700 block"
+					className="px-6 uppercase rounded-full text-white text-sm py-1 bg-green-700 font-bold block transition duration-200 ease-in-out hover:bg-green-900"
 					type="submit">
 					Send
 				</button>
