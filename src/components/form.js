@@ -7,7 +7,9 @@ export default function Form() {
 			name="wedding-details"
 			method="POST"
 			action="/success"
-			data-netlify="true">
+			data-netlify="true"
+			netlify-honeypot="bot-field">
+			<input type="hidden" name="form-name" value="wedding-details" />
 			<div>
 				<label className="block">Full Name</label>
 				<input
