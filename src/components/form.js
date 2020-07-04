@@ -9,6 +9,11 @@ export default function Form() {
 			action="/success"
 			data-netlify="true"
 			netlify-honeypot="bot-field">
+			<p className="hidden">
+				<label>
+					Don’t fill this out if you are human: <input name="bot-field" />
+				</label>
+			</p>
 			<input type="hidden" name="form-name" value="wedding-details" />
 			<div>
 				<label className="block">Full Name</label>
