@@ -1,7 +1,7 @@
 import React from 'react';
 import heroImage from '../images/hero.jpg';
 
-function Header() {
+export default function Header() {
 	return (
 		<header className="max-h-600 relative">
 			<img className="max-h-600 w-full object-cover" src={heroImage} alt="" />
@@ -18,5 +18,3 @@ function Header() {
 		</header>
 	);
 }
-
-export default Header;

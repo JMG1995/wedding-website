@@ -25,12 +25,12 @@ function IndexPage() {
 				</p>
 				<p>
 					We’ve arranged coach transfers between The Novotel Vines Resort and
-					sittella for any guests who wish to get their party on and not worry
+					Sittella for any guests who wish to get their party on and not worry
 					about driving.
 				</p>
 				<p>
-					Leaving Novotel Vines at <u>3:30pm</u>, with pickup from Sittella at{' '}
-					<u>11:50pm.</u>
+					The coach will leave the Novotel Vines at <u>3:30pm</u>, with pickup
+					from Sittella at <u>11:50pm.</u>
 				</p>
 				<p>
 					Please note: children are welcome to attend the ceremony, however our
@@ -42,7 +42,7 @@ function IndexPage() {
 					</h2>
 					<p className="mb-4 lg:mb-8">
 						Please fill out the following form for <u>each person attending</u>{' '}
-						by no later than november 20.
+						by no later than November 20.
 					</p>
 					<Form />
 				</div>

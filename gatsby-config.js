@@ -35,6 +35,22 @@ module.exports = {
 				],
 			},
 		},
+		{
+			resolve: `gatsby-source-filesystem`,
+			options: {
+				name: `pages`,
+				path: `${__dirname}/src/pages/`,
+			},
+		},
+		{
+			resolve: `gatsby-plugin-sharp`,
+			options: {
+				useMozJpeg: false,
+				stripMetadata: true,
+				defaultQuality: 75,
+			},
+		},
+		`gatsby-transformer-sharp`,
 		`gatsby-plugin-offline`,
 		{
 			resolve: `gatsby-plugin-prefetch-google-fonts`,
