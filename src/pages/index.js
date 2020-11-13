@@ -42,7 +42,7 @@ function IndexPage() {
 					</h2>
 					<p className="mb-4 lg:mb-8">
 						Please fill out the following form for <u>each person attending</u>{' '}
-						by no later than November 20.
+						by no later than November 6th.
 					</p>
 					<Form />
 				</div>
