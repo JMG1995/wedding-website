@@ -11,6 +11,16 @@ function Layout({ children }) {
 			<main className="max-w-1280 mx-auto px-4 xl:px-0 py-8 w-full md:py-16">
 				{children}
 			</main>
+
+			<footer className="max-w-1280 mx-auto px-4 xl:px-0 py-8 w-full flex items-center justify-end">
+				<a
+					href="https://halfcab.com.au"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="transition duration-200 hover:text-green-700">
+					Built by Halfcab.
+				</a>
+			</footer>
 		</div>
 	);
 }
